@@ -1,0 +1,47 @@
+{
+  "name": "plumage-cli",
+  "version": "1.0.0",
+  "description": "Command-line interface for Plumage.",
+  "keywords": [
+    "plumage",
+    "cli",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "Ryan Gittings",
+  "main": "lib/index.js",
+  "bin": {
+    "plumage": "./bin/plumage.js"
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "colors": "^1.0.3",
+    "inquirer": "^6.5.0",
+    "is-root": "^2.1.0",
+    "nopt": "^4.0.1",
+    "npm": "^6.10.0",
+    "rimraf": "^2.2.8",
+    "update-notifier": "^3.0.1",
+    "which": "^1.0.8"
+  },
+  "homepage": "https://ryangittings.co.uk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryangittings/plumage-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/ryangittings/plumage-cli/issues"
+  },
+  "scripts": {
+    "test": "node bin/plumage.js new"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=4.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "editorconfig": "^0.15.3",
+    "eslint": "^6.0.1"
+  }
+}
